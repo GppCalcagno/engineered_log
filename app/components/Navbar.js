@@ -12,9 +12,9 @@ import Logo from './Logo'
 
 
 const menuItems = [
-  { label: 'Notes', href: '/notes', icon: '/icons/idea.png' },
-  { label: 'Projects', href: '/project', icon: '/icons/tools.png' },
-  { label: 'About', href: '/about', icon: '/icons/idcard.png' },
+  { label: 'Notes', href: '/WIP', icon: '/icons/idea.png' },
+  { label: 'Projects', href: '/WIP', icon: '/icons/tools.png' },
+  { label: 'About', href: '/WIP', icon: '/icons/idcard.png' },
 ];
 
 export default function Navbar({ theme, toggleTheme }) {
@@ -23,7 +23,7 @@ export default function Navbar({ theme, toggleTheme }) {
   return (
     <nav className="fixed top-0 w-full h-12 z-50 flex items-center md:pr-[var(--sidebar-width)] bg-(--background)">
 
-      <div className='w-full h-full flex justify-between mx-4 border-b border-[var(--color-shade)]'>
+      <div className='w-full h-full flex justify-between sm:mx-10  mx-2 border-b border-[var(--color-shade)]'>
         
         <div className='flex sm:hidden'>
           <Logo/>

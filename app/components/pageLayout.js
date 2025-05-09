@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import Navbar from './Navbar';
 import Sidebar from './Sidebar';
+import Footer from './Footer';
 
 export default function PageLayout({ children }) {
   const [theme, setTheme] = useState('light');
@@ -22,10 +23,13 @@ export default function PageLayout({ children }) {
       <Sidebar />
       <div className="flex-1 flex flex-col overflow-auto no-scrollbar">
         <Navbar theme={theme} toggleTheme={toggleTheme} />
-        <div className="flex-1 pt-13 text-black dark:text-white p-6">
+        <div className="flex-1 pt-13 text-black dark:text-white sm:px-14 px-6">
           {children}
         </div>
-        <div className="bg-red-500 p-4">Footer</div>
+        <div className="sm:px-14 px-6">
+        <Footer />
+        </div>
+        
       </div>
       
     </div>

@@ -11,18 +11,7 @@ export default function Home() {
       <h1 className="text-5xl ">Welcome to the main page</h1>
       <h1 className="text-5xl ">Welcome to the main page</h1>
       <h1 className="text-5xl ">Welcome to the main page</h1>
-      <h1 className="text-5xl ">Welcome to the main page</h1>
-      <h1 className="text-5xl ">Welcome to the main page</h1>
-      <h1 className="text-5xl ">Welcome to the main page</h1>
-      <h1 className="text-5xl ">Welcome to the main page</h1>
-      <h1 className="text-5xl ">Welcome to the main page</h1>
-      <h1 className="text-5xl ">Welcome to the main page</h1>
-      <h1 className="text-5xl ">Welcome to the main page</h1>
-      <h1 className="text-5xl ">Welcome to the main page</h1>
-      <h1 className="text-5xl ">Welcome to the main page</h1>
-      <h1 className="text-5xl ">Welcome to the main page</h1>
-      <h1 className="text-5xl ">Welcome to the main page</h1>
-      <h1 className="text-5xl ">Welcome to the main page</h1>
+
       <p className="">This content comes from the page.</p>
     </PageLayout>
   );

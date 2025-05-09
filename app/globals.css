@@ -11,6 +11,7 @@
   --color-sand-dark: #eee8d5;
 
   --color-shade:#ddd5b3;
+  --color-sidebar: #eee8d5;
 
   --sidebar-width: 16rem; /* This corresponds to 64px */
 
@@ -22,6 +23,8 @@
   --background: #1f1f1f;
   --foreground: #ededed;
   --color-shade:#3d3d3d;
+
+  --color-sidebar: #181818;
 }
 
 body {
