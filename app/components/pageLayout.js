@@ -23,13 +23,13 @@ export default function PageLayout({ children }) {
       <Sidebar />
       <div className="flex-1 flex flex-col overflow-auto no-scrollbar">
         <Navbar theme={theme} toggleTheme={toggleTheme} />
-        <div className="flex-1 pt-13 text-black dark:text-white sm:px-14 px-6">
+        <div className="flex-1 pt-13 sm:px-14 px-6">
           {children}
         </div>
         <div className="sm:px-14 px-6">
         <Footer />
         </div>
-        
+
       </div>
       
     </div>

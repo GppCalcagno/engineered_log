@@ -13,7 +13,9 @@
   --color-shade:#ddd5b3;
   --color-sidebar: #eee8d5;
 
-  --sidebar-width: 16rem; /* This corresponds to 64px */
+  --color-text:#444444;
+
+  --sidebar-width: 16rem; /* This corresponds to 64px;*/
 
 }
 
@@ -25,6 +27,7 @@
   --color-shade:#3d3d3d;
 
   --color-sidebar: #181818;
+  --color-text: #dbdada;
 }
 
 body {
@@ -38,6 +41,10 @@ body {
   transition: color 0.25s;
 }
 
+p {
+  color: var(--color-text);
+}
+
 
 .no-scrollbar::-webkit-scrollbar {
   display: none;
@@ -46,11 +53,13 @@ body {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;     /* Firefox */
 }
+
 @layer components {
   .nav-btn {
-    @apply flex px-3 py-2 rounded-xl transition  items-center 
+    @apply flex px-3 py-2 rounded-xl transition  items-center text-(--color-text)
           hover:bg-(--color-shade)  
   }
 }
-  
+
+
 

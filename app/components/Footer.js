@@ -5,7 +5,7 @@ import { SiRefinedgithub } from "react-icons/si";
 export default function Footer() {
     return (
         <div className="border-t border-[var(--color-shade)] p-3">
-            <div className="flex items-center justify-between">
+            <div className="flex flex-col sm:flex-row items-center justify-between">
                 <p className="text-sm text-gray-500">
                     Made with 🧠 by me
                 </p>

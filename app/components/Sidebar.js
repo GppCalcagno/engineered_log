@@ -17,7 +17,7 @@ export default function Sidebar() {
               <h2 className="text-base font-semibold mb-2">About Me</h2>
               <div className="sidebar-content">
                   <p>
-                    I'm <Link className="text-blue-600 hover:underline" href="/about"> Giuseppe</Link>, Machine Learing and 
+                    <Link className="text-blue-600 hover:underline" href="/about"> I am </Link> a Machine Learing and 
                     Software engineer. This is my digital garden. 🌱
                   </p>
               </div>
@@ -46,17 +46,17 @@ export default function Sidebar() {
                 <ul className="border-l border-gray-300 dark:border-gray-700 ml-1.5 pl-1.5 Univers space-y-2 pt-1.5 mt-1">
                   <li className="relative pl-4 before:absolute before:left-0 before:top-2 before:h-3 before:w-3 before:rounded-full before:bg-green-500">
                     <Link className="hover:underline" href="/WIP">
-                      Tech Notes
+                      <p>Tech Notes</p>
                     </Link>
                   </li>
                   <li className="relative pl-4 before:absolute before:left-0 before:top-2 before:h-3 before:w-3 before:rounded-full before:bg-blue-500">
                     <Link className="hover:underline" href="/WIP">
-                      Thinking Notes
+                      <p>Thinking Notes</p>
                     </Link>
                   </li>
                   <li className="relative pl-4 before:absolute before:left-0 before:top-2 before:h-3 before:w-3 before:rounded-full before:bg-orange-500">
                     <Link className="hover:underline" href="/WIP">
-                      Life Notes
+                      <p>Life Notes</p>
                     </Link>
                   </li>
                 </ul>
@@ -73,12 +73,12 @@ export default function Sidebar() {
                 <ul className="border-l border-gray-300 dark:border-gray-700 ml-1.5 pl-1.5 space-y-2 pt-1.5 mt-1">
                   <li className="relative pl-4 before:absolute before:left-0 before:top-2 before:h-3 before:w-3 before:rounded-full before:bg-teal-500">
                     <Link className="hover:underline" href="/WIP">
-                      Machine Learning
+                      <p>Machine Learning</p>
                     </Link>
                   </li>
                   <li className="relative pl-4 before:absolute before:left-0 before:top-2 before:h-3 before:w-3 before:rounded-full before:bg-yellow-400">
                     <Link className="hover:underline" href="/WIP">
-                      Software Engineering
+                      <p>Software Engineering</p>
                     </Link>
                   </li>
                 </ul>

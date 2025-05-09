@@ -12,7 +12,7 @@ import Logo from './Logo'
 
 
 const menuItems = [
-  { label: 'Notes', href: '/WIP', icon: '/icons/idea.png' },
+  { label: 'Notes', href: '/Notes', icon: '/icons/idea.png' },
   { label: 'Projects', href: '/WIP', icon: '/icons/tools.png' },
   { label: 'About', href: '/WIP', icon: '/icons/idcard.png' },
 ];

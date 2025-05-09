@@ -1,15 +1,14 @@
-import PageLayout from "./components/pageLayout";
-import Hero from "./components/Hero";
+import PageLayout from "../components/pageLayout";
+import Hero from "../components/Hero";
 
 export default function Home() {
   return (
     <PageLayout>
       <Hero
-        title="Welcome 👋"
+        title="Notes Page"
         subtitle="I’m a Computer Science Engineer passionate about coding, 
         dedicated to solving complex problems and staying updated in the ever‑evolving tech landscape."
         subtitle2="This is my little corner of the internet where I share what I learn, think, and sometimes do."
-        image="illustration/home2.svg"
       />
       <section className="py-6">
         <div className="max-w">
