@@ -1,24 +1,61 @@
 import PageLayout from "../components/pageLayout";
 import Hero from "../components/Hero";
+import getPostMetadata from "../utils/getPostMetadata";
+import Link from "next/link";
 
 export default function Home() {
+  const notes = getPostMetadata("content/blogs");
+
+  // Raggruppa per anno
+  const groupedByYear = notes.reduce((acc, post) => {
+    const year = new Date(post.publishedAt).getFullYear();
+    if (!acc[year]) acc[year] = [];
+    acc[year].push(post);
+    return acc;
+  }, {});
+
+  const sortedYears = Object.keys(groupedByYear).sort((a, b) => b - a);
+
   return (
     <PageLayout>
       <Hero
-        title="Notes Page"
-        subtitle="I’m a Computer Science Engineer passionate about coding, 
-        dedicated to solving complex problems and staying updated in the ever‑evolving tech landscape."
-        subtitle2="This is my little corner of the internet where I share what I learn, think, and sometimes do."
+        title="My Notes"
+        subtitle="Here is the place where I write the relevant stuff about my life that may (not) be valuable enough to be stored in a bunch of bits."
+        subtitle2="Mostly about coding, personal finance, and productivity — Occasionally, just brain dumps."
+        image="illustration/blog1.svg"
       />
+
+      <div className="flex sm:px-15">
       <section className="py-6">
-        <div className="max-w">
-          <h2 className="text-3xl font-bold mb-4">WIP</h2>
-          <p className="text-lg mb-4 text-gray-700">
-            Here are some of my latest thoughts and projects. Feel free to explore!
-          </p>
-          {/* Add your posts or content here */}
-        </div>
+
+          {sortedYears.map((year) => (
+            <div key={year} className="mb-10">
+              <h2 className="text-2xl sm:text-4xl font-bold border-l-4 border-green-500 pl-4  mb-4">{year}</h2>
+              <ul className="space-y-3 pl-3 border-l border-green-300">
+                {groupedByYear[year]
+                  .sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt))
+                  .map((post) => (
+                    <li key={post.slug}>
+                      <Link href={`/posts/${post.slug}`} className="text-blue-600 hover:underline font-medium">
+                        {post.title}
+                      </Link>
+                      <div className=" text-gray-500">
+                        {post.tags}
+                      </div>
+                      <div className="text-sm text-gray-500">
+                        {new Date(post.publishedAt).toLocaleDateString("en-US", {
+                          month: "long",
+                          day: "numeric",
+                        })}
+                      </div>
+                    </li>
+                  ))}
+              </ul>
+            </div>
+          ))}
+
       </section>
+      </div>
     </PageLayout>
   );
 }
