@@ -3,7 +3,7 @@ export default function Hero({ title, subtitle, subtitle2, image }) {
   
     return (
       <section className="py-3">
-        <div className="sm:mx-3 flex flex-col sm:flex-row items-center gap-8">
+        <div className="sm:mx-3 flex flex-col sm:flex-row items-center">
           <div className={`w-full ${textSectionWidth} text-left`}>
             <h1 className="text-5xl font-bold mb-6">{title}</h1>
             <p className="text-xl mb-4">{subtitle}</p>

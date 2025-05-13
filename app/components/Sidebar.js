@@ -4,7 +4,7 @@ import Link from 'next/link';
 // components/Navbar.js
 export default function Sidebar() {
     return (
-      <div className="hidden sm:flex w-[var(--sidebar-width)] h-full bg-[var(--color-sidebar)] overflow-auto no-scrollbar">
+      <div className="hidden md:flex w-[var(--sidebar-width)] h-full bg-[var(--color-sidebar)] overflow-auto no-scrollbar">
         <div className='flex flex-col h-full w-full items-center' >
 
           {/* Logo */}
@@ -17,7 +17,7 @@ export default function Sidebar() {
               <h2 className="text-base font-semibold mb-2">About Me</h2>
               <div className="sidebar-content">
                   <p>
-                    <Link className="text-blue-600 hover:underline" href="/about"> I am </Link> a Machine Learing and 
+                    <Link className="text-[var(--color-link)] hover:underline" href="/about"> I am </Link> a Machine Learing and 
                     Software engineer. This is my digital garden. 🌱
                   </p>
               </div>
@@ -32,7 +32,7 @@ export default function Sidebar() {
                   <p>
                     This is about me, tech and a bit of finance. Sometimes I also think, and when it happens, I write it down.   
                     If you’re looking for a good spot to dive in,
-                    <Link className="text-blue-600 hover:underline" href="/WIP"> this might be it</Link>.  🌏
+                    <Link className="text-[var(--color-link)] hover:underline" href="/WIP"> this might be it</Link>.  🌏
                   </p>
               </div>    
             </section>

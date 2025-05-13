@@ -1,0 +1,112 @@
+[
+    {
+      "class":"SE",
+      "imgPath": "AIEnhancedWebBookstore.png",
+      "title": "AI-Enhanced-Web-Bookstore",
+      "description": "This project is a web-based bookstore application developed. The application includes standard CRUD operations for managing books and incorporates an AI-based feature. The communication between the front-end and back-end is implemented using REST APIs.",
+      "hasGithubLink": true,
+      "ghLink": "https://github.com/GppCalcagno/AI-Enhanced-Web-Bookstore",
+      "hasOtherLink": false,
+      "OtherLinkTitle": "",
+      "OtherLink": ""
+    },
+    {
+      "class":"AI",
+      "imgPath": "IntelligentObjectGraspinginIndustrialRobotics.png",
+      "title": "Intelligent Object Grasping in Industrial Robotics",
+      "description": "This work explores the potential of deep reinforcement learning for industrial robots in object grasping tasks. The objectives are to develop an efficient agent using Deep RL and establish a flexible framework for diverse industrial situations while maintaining low overhead compared to original solutions",
+      "hasGithubLink": false,
+      "ghLink": "TODO",
+      "hasOtherLink": true,
+      "OtherLinkTitle": "Link",
+      "OtherLink": "https://www.politesi.polimi.it/handle/10589/215163"
+    },
+    {
+      "class":"SE",
+      "imgPath": "MultiModelBibliographicDatabaseSystem.png",
+      "title": "Multi-Model Bibliographic Database System",
+      "description": "The project focuses on designing databases, inspired by systems like DBLP, to store bibliographic information on journals, papers, and authors. Different data management systems are analyzed using GraphDB (neo4j), DocumentalDB (mongoDB), and Computational Engine (Spark).",
+      "hasGithubLink": true,
+      "ghLink": "https://github.com/GppCalcagno/SMBUD-Project",
+      "hasOtherLink": false,
+      "OtherLinkTitle": "",
+      "OtherLink": ""
+    },
+    {
+      "class":"AI",
+      "imgPath": "PlantImageClassificationChallenge.png",
+      "title": "Plant Image Classification Challenge",
+      "description": "Given a dataset of plant images (96x96), the goal of the project is to classify them according to 8 classes. The project is developed in Python using Tensorflow. Tests are performed both with models from scratch and with transfer learning.",
+      "hasGithubLink": true,
+      "ghLink": "https://github.com/GppCalcagno/AN2DL-Project",
+      "hasOtherLink": false,
+      "OtherLinkTitle": "",
+      "OtherLink": ""
+    },
+    {
+      "class":"SE",
+      "imgPath": "CommUNIty.png",
+      "title": "CommUNIty: Share Note App",
+      "description": "The project strives to create a multi-platfrom application using Flutter and Firebase. The concept, named CommUNIty, envisions an application that consolidates various facets of students' academic lives, fostering a sense of community by bringing together diverse aspects of their study experience.",
+      "hasGithubLink": true,
+      "ghLink": "https://github.com/GppCalcagno/CommUNIty-Dima_PoliMi",
+      "hasOtherLink": false,
+      "OtherLinkTitle": "",
+      "OtherLink": ""
+    },
+    {
+      "class":"SE",
+      "imgPath": "EcommercewithJavaandSQL.png",
+      "title": "E-commerce with Java and SQL",
+      "description": "The project involves developing a Java based application for a company, with a relational DB. It includes a consumer interface for customers to register and purchase services, and an employee interface for workers to log in, create custom Service Packs, add optional products, and access sales reports.",
+      "hasGithubLink": true,
+      "ghLink": "https://github.com/GppCalcagno/Database2_JPA-project",
+      "hasOtherLink": false,
+      "OtherLinkTitle": "",
+      "OtherLink": ""
+    },
+    {
+      "class":"SE",
+      "imgPath": "FPGAforImageHistogramEqualization.png",
+      "title": "FPGA for Image Histogram Equalization",
+      "description": "The goal of the project is to, given a grayscale image with 256 levels, create a FPGA hardware module with VIVADO using VHDL capable of processing the image by performing histogram equalization. This process involves enhancing the contrast by restoring the brighter and darker points.",
+      "hasGithubLink": true,
+      "ghLink": "https://github.com/GppCalcagno/Reti_Logiche-project",
+      "hasOtherLink": false,
+      "OtherLinkTitle": "",
+      "OtherLink": ""
+    },
+    {
+      "class":"SE",
+      "imgPath": "SmartBraceletsforChildren.png",
+      "title": "Smart Bracelets for Children",
+      "description": "The goal of the project is to design, implement and test a software prototype for a smart bracelet. The bracelet is worn by a child and her/his parent to keep track of the child’s position and trigger alerts when a child goes too far. Developed in tinyOS and the simulation was done with Tossim.",
+      "hasGithubLink": true,
+      "ghLink": "https://github.com/GppCalcagno/IOT-project",
+      "hasOtherLink": false,
+      "OtherLinkTitle": "",
+      "OtherLink": ""
+    },
+    {
+      "class":"SE",
+      "imgPath": "CryptographicPerformanceImpact.png",
+      "title": "Cryptographic Performance Impact",
+      "description": "Ensuring the safety of an electronic device during its execution is a very important issue. The aim of the project is to instantiate hardware architectures that differ both ins tructure and in computational capacity in order to test the impact of the AES algorithm on performance,",
+      "hasGithubLink": true,
+      "ghLink": "https://github.com/GppCalcagno/Cryptographic_Performance-Project/tree/master",
+      "hasOtherLink": false,
+      "OtherLinkTitle": "",
+      "OtherLink": ""
+    },
+    {
+      "class":"SE",
+      "imgPath": "JavaBoardGamePorting.png",
+      "title": "Java Board Game Porting",
+      "description": "The goal of the project is to create a digital version of the board game Masters of the Renaissance as a web application. The game is a worker placement game where the players are merchants in Florence during the Renaissance.",
+      "hasGithubLink": true,
+      "ghLink": "https://github.com/GppCalcagno/Masters_of_Renaissance_BoardGame_porting_SoftEng_PoliMI",
+      "hasOtherLink": true,
+      "OtherLinkTitle": "Real Game ",
+      "OtherLink": "https://boardgamegeek.com/boardgame/280453/masters-renaissance-lorenzo-il-magnifico-card-game"
+    }
+  ]
