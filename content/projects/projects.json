@@ -1,109 +1,101 @@
 [
-    {
-      "class":"SE",
-      "tag":[""],
-      "startDate": 2024,
-      "endDate": 2024,
-      "imgPath": "AIEnhancedWebBookstore.png",
-      "title": "AI-Enhanced-Web-Bookstore",
-      "description": "This project is a web-based bookstore application developed. The application includes standard CRUD operations for managing books and incorporates an AI-based feature. The communication between the front-end and back-end is implemented using REST APIs.",
-      "githubLink": "https://github.com/GppCalcagno/AI-Enhanced-Web-Bookstore",
-      "blogLink": "",
-      "extLink":"" 
-    },
-    {
-      "class":"ML",
-      "tag":[""],
-      "startDate": 2024,
-      "endDate": 2024,
-      "imgPath": "IntelligentObjectGraspinginIndustrialRobotics.png",
-      "title": "Intelligent Object Grasping in Industrial Robotics",
-      "description": "This work explores the potential of deep reinforcement learning for industrial robots in object grasping tasks. The objectives are to develop an efficient agent using Deep RL and establish a flexible framework for diverse industrial situations while maintaining low overhead compared to original solutions",
-      "githubLink": "",
-      "blogLink": "Link",
-      "extLink": "https://www.politesi.polimi.it/handle/10589/215163"
-    },
-    {
-      "class":"UNI",
-      "tag":[""],
-      "startDate": 2024,
-      "endDate": 2024,
-      "imgPath": "PlantImageClassificationChallenge.png",
-      "title": "Plant Image Classification Challenge",
-      "description": "Given a dataset of plant images (96x96), the goal of the project is to classify them according to 8 classes. The project is developed in Python using Tensorflow. Tests are performed both with models from scratch and with transfer learning.",
-      "githubLink": "https://github.com/GppCalcagno/AN2DL-Project",
-      "blogLink": "",
-      "extLink": ""
-    },
-    {
-      "class":"UNI",
-      "tag":[""],
-      "startDate": 2024,
-      "endDate": 2024,
-      "imgPath": "CommUNIty.png",
-      "title": "CommUNIty: Share Note App",
-      "description": "The project strives to create a multi-platfrom application using Flutter and Firebase. The concept, named CommUNIty, envisions an application that consolidates various facets of students' academic lives, fostering a sense of community by bringing together diverse aspects of their study experience.",
-      "githubLink": "https://github.com/GppCalcagno/CommUNIty-Dima_PoliMi",
-      "blogLink": "",
-      "extLink": ""
-    },
-    {
-      "class":"UNI",
-      "tag":[""],
-      "startDate": 2024,
-      "endDate": 2024,
-      "imgPath": "EcommercewithJavaandSQL.png",
-      "title": "E-commerce with Java and SQL",
-      "description": "The project involves developing a Java based application for a company, with a relational DB. It includes a consumer interface for customers to register and purchase services, and an employee interface for workers to log in, create custom Service Packs, add optional products, and access sales reports.",
-      "githubLink": "https://github.com/GppCalcagno/Database2_JPA-project",
-      "blogLink": "",
-      "extLink": ""
-    },
-    {
-      "class":"UNI",
-      "startDate": 2024,
-      "endDate": 2024,
-      "imgPath": "FPGAforImageHistogramEqualization.png",
-      "title": "FPGA for Image Histogram Equalization",
-      "description": "The goal of the project is to, given a grayscale image with 256 levels, create a FPGA hardware module with VIVADO using VHDL capable of processing the image by performing histogram equalization. This process involves enhancing the contrast by restoring the brighter and darker points.",
-      "githubLink": "https://github.com/GppCalcagno/Reti_Logiche-project",
-      "blogLink": "",
-      "extLink": ""
-    },
-    {
-      "class":"UNI",
-      "tag":[""],
-      "startDate": 2024,
-      "endDate": 2024,
-      "imgPath": "SmartBraceletsforChildren.png",
-      "title": "Smart Bracelets for Children",
-      "description": "The goal of the project is to design, implement and test a software prototype for a smart bracelet. The bracelet is worn by a child and her/his parent to keep track of the child’s position and trigger alerts when a child goes too far. Developed in tinyOS and the simulation was done with Tossim.",
-      "githubLink": "https://github.com/GppCalcagno/IOT-project",
-      "blogLink": "",
-      "extLink": ""
-    },
-    {
-      "class":"UNI",
-      "tag":[""],
-      "startDate": 2024,
-      "endDate": 2024,
-      "imgPath": "CryptographicPerformanceImpact.png",
-      "title": "Cryptographic Performance Impact",
-      "description": "Ensuring the safety of an electronic device during its execution is a very important issue. The aim of the project is to instantiate hardware architectures that differ both ins tructure and in computational capacity in order to test the impact of the AES algorithm on performance,",
-      "githubLink": "https://github.com/GppCalcagno/Cryptographic_Performance-Project/tree/master",
-      "blogLink": "",
-      "extLink": ""
-    },
-    {
-      "class":"UNI",
-      "tag":[""],
-      "startDate": 2024,
-      "endDate": 2024,
-      "imgPath": "JavaBoardGamePorting.png",
-      "title": "Java Board Game Porting",
-      "description": "The goal of the project is to create a digital version of the board game Masters of the Renaissance as a web application. The game is a worker placement game where the players are merchants in Florence during the Renaissance.",
-      "githubLink": "https://github.com/GppCalcagno/Masters_of_Renaissance_BoardGame_porting_SoftEng_PoliMI",
-      "blogLink": "",
-      "extLink": ""
-    }
-  ]
+  {
+    "class": "Software Engineering",
+    "tag": ["LLM", "Web App", "Full Stack"],
+    "year": 2024,
+    "imgPath": "AIEnhancedWebBookstore.png",
+    "title": "AI-Enhanced Web Bookstore",
+    "description": "A web-based bookstore with standard CRUD operations and an AI-powered feature. Frontend and backend communicate through REST APIs.",
+    "githubLink": "https://github.com/GppCalcagno/AI-Enhanced-Web-Bookstore",
+    "blogLink": "",
+    "extLink": ""
+  },
+  {
+    "class": "Machine Learning",
+    "tag": ["Reinforcement Learning", "Robotics", "Deep Learning"],
+    "year": 2024,
+    "imgPath": "IntelligentObjectGraspinginIndustrialRobotics.png",
+    "title": "Intelligent Object Grasping in Industrial Robotics",
+    "description": "A Deep RL framework for industrial robots to grasp objects efficiently in diverse scenarios, maintaining low computational overhead.",
+    "githubLink": "",
+    "blogLink": "Link",
+    "extLink": "https://www.politesi.polimi.it/handle/10589/215163"
+  },
+  {
+    "class": "University",
+    "tag": ["TensorFlow", "Neural Networks", "Transfer Learning"],
+    "year": 2023,
+    "imgPath": "PlantImageClassificationChallenge.png",
+    "title": "Plant Image Classification Challenge",
+    "description": "Classified plant images (96x96) into 8 categories using TensorFlow. Compared models built from scratch with transfer learning approaches.",
+    "githubLink": "https://github.com/GppCalcagno/AN2DL-Project",
+    "blogLink": "",
+    "extLink": ""
+  },
+  {
+    "class": "University",
+    "tag": ["Flutter", "Firebase", "Cross-platform"],
+    "year": 2023,
+    "imgPath": "CommUNIty.png",
+    "title": "CommUNIty: Share Note App",
+    "description": "A Flutter app using Firebase to help students share notes and resources, enhancing collaboration and community building.",
+    "githubLink": "https://github.com/GppCalcagno/CommUNIty-Dima_PoliMi",
+    "blogLink": "",
+    "extLink": ""
+  },
+  {
+    "class": "University",
+    "tag": ["Java", "SQL", "E-commerce"],
+    "year": 2022,
+    "imgPath": "EcommercewithJavaandSQL.png",
+    "title": "E-commerce with Java and SQL",
+    "description": "A Java-based app with relational DB featuring customer registration, service purchases, employee tools, and sales reporting.",
+    "githubLink": "https://github.com/GppCalcagno/Database2_JPA-project",
+    "blogLink": "",
+    "extLink": ""
+  },
+  {
+    "class": "University",
+    "tag": ["IoT", "TinyOS", "Node-Red"],
+    "year": 2022,
+    "imgPath": "SmartBraceletsforChildren.png",
+    "title": "Smart Bracelets for Children",
+    "description": "Designed a smart bracelet system in TinyOS to track child-parent distance and trigger alerts when too far apart. Simulated with Tossim.",
+    "githubLink": "https://github.com/GppCalcagno/IOT-project",
+    "blogLink": "",
+    "extLink": ""
+  },
+  {
+    "class": "University",
+    "tag": ["FPGA", "Image Processing", "VHDL"],
+    "year": 2021,
+    "imgPath": "FPGAforImageHistogramEqualization.png",
+    "title": "FPGA for Image Histogram Equalization",
+    "description": "Developed a VHDL module in VIVADO for contrast enhancement through histogram equalization of 256-level grayscale images.",
+    "githubLink": "https://github.com/GppCalcagno/Reti_Logiche-project",
+    "blogLink": "",
+    "extLink": ""
+  },
+  {
+    "class": "University",
+    "tag": ["Security", "AES", "Performance"],
+    "year": 2021,
+    "imgPath": "CryptographicPerformanceImpact.png",
+    "title": "Cryptographic Performance Impact",
+    "description": "Tested different hardware architectures to evaluate how AES encryption affects execution performance on embedded systems.",
+    "githubLink": "https://github.com/GppCalcagno/Cryptographic_Performance-Project/tree/master",
+    "blogLink": "",
+    "extLink": ""
+  },
+  {
+    "class": "University",
+    "tag": ["Java", "GameDevelopment", "System Design"],
+    "year": 2021,
+    "imgPath": "JavaBoardGamePorting.png",
+    "title": "Java Board Game Porting",
+    "description": "Created a digital version of the board game *Masters of the Renaissance* as a Java web application with multiplayer logic.",
+    "githubLink": "https://github.com/GppCalcagno/Masters_of_Renaissance_BoardGame_porting_SoftEng_PoliMI",
+    "blogLink": "",
+    "extLink": ""
+  }
+]
