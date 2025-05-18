@@ -9,7 +9,7 @@ export default function Custom404() {
   <div className="flex flex-col max-w-xl p-10 space-y-10">
     <h1 className="text-9xl font-bold">104</h1>
     <p className="text-2xl">
-      Probably you are looking for something that doesn't exist (yet)! 
+      Probably you are looking for something that doesn&#39;t exist (yet)!
     </p>
   </div>
   <div className="flex-1 p-1'">

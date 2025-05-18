@@ -4,7 +4,7 @@ import Link from 'next/link';
 // components/Navbar.js
 export default function Sidebar() {
     return (
-      <div className="hidden md:flex w-[var(--sidebar-width)] h-full bg-[var(--color-sidebar)] overflow-auto no-scrollbar">
+      <div className="hidden lg:flex w-[var(--sidebar-width)] h-full bg-[var(--color-sidebar)] overflow-auto no-scrollbar">
         <div className='flex flex-col h-full w-full items-center' >
 
           {/* Logo */}

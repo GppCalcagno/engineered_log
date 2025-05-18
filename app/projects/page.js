@@ -32,7 +32,7 @@ export default function ProjectsPage() {
       />
 
       {/* Filtro */}
-      <div className="flex flex-wrap justify-center gap-3 my-6">
+      <div className="flex flex-wrap justify-center gap-3 my-4">
         {classOptions.map((cls, i) => (
           <button
             key={i}
@@ -50,11 +50,11 @@ export default function ProjectsPage() {
       </div>
 
       {/* Lista progetti */}
-      <section className="px-4 py-6 max-w-6xl">
+      <section className="md:px-13  py-4 max-w-6xl">
         {filteredProjects.map((project, index) => (
           <div
             key={index}
-            className="flex flex-col md:flex-row gap-2 mb-12 p-2 rounded-xl hover:scale-105 hover:border-2 border-[var(--color-project-description)] transition-all"
+            className="flex flex-col md:flex-row gap-2 mb-12 p-2 rounded-xl hover:shadow-lg transition-all"
           >
             {/* Immagine */}
             <div className="w-full md:w-1/2 relative aspect-video">

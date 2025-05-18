@@ -14,7 +14,7 @@ import Logo from './Logo'
 const menuItems = [
   { label: 'Notes', href: '/notes', icon: '/icons/idea.png' },
   { label: 'Projects', href: '/projects', icon: '/icons/tools.png' },
-  { label: 'About', href: '/WIP', icon: '/icons/idcard.png' },
+  { label: 'About', href: '/aboutme', icon: '/icons/idcard.png' },
 ];
 
 export default function Navbar({ theme, toggleTheme }) {

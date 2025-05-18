@@ -1,5 +1,7 @@
-export default function Hero({ title, subtitle, subtitle2, image }) {
-    const textSectionWidth = image ? "sm:w-2/3" : "sm:w-full";
+import Image from 'next/image';
+
+export default function Hero({ title, subtitle, subtitle2, image: image_path }) {
+    const textSectionWidth = image_path ? "sm:w-3/5" : "sm:w-full";
   
     return (
       <section className="py-3">
@@ -11,9 +13,9 @@ export default function Hero({ title, subtitle, subtitle2, image }) {
               <p className="text-lg">{subtitle2}</p>
             )}
           </div>
-          {image && (
-            <div className="w-50 h-50 sm:w-2/5 flex justify-center">
-              <img src={image} alt="Landing Page" className="max-w-full h-auto" />
+          {image_path && (
+            <div className=" relative w-full h-50 sm:w-2/5 flex" > 
+              <Image src={image_path} alt="Landing Page" fill />
             </div>
           )}
         </div>
