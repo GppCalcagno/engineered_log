@@ -11,7 +11,7 @@ export default function Footer() {
                 </p>
                 <p className="flex items-center text-sm text-gray-500">
                     All Technical info is available on
-                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="ml-2">
+                    <a href="https://github.com/GppCalcagno/engineered_log" target="_blank" rel="noopener noreferrer" className="ml-2">
                         <SiRefinedgithub className="h-5 w-5 hover:scale-130" />
                     </a>
                 </p>
