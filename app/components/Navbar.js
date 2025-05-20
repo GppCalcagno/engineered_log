@@ -12,8 +12,8 @@ import Logo from './Logo'
 
 
 const menuItems = [
-  { label: 'Notes', href: '/notes', icon: '/icons/idea.png' },
   { label: 'Projects', href: '/projects', icon: '/icons/tools.png' },
+  { label: 'Notes', href: '/notes', icon: '/icons/idea.png' },
   { label: 'About', href: '/aboutme', icon: '/icons/idcard.png' },
 ];
 
