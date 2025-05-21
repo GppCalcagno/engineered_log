@@ -34,7 +34,7 @@ export default function Notes() {
                 {groupedByYear[year]
                   .sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt))
                   .map((post) => (
-                    <li key={post.slug} className="hover:bg-[var(--color-shade)] p-2 rounded-r-lg">
+                    <li key={post.slug} className=" hover:bg-[var(--color-shade)] p-2 rounded-r-lg">
                       <Link href={`/notes/${post.slug}`} className="text-[var(--color-link)] hover:underline font-medium">
                         {post.title}
                       </Link>

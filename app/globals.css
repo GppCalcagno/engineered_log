@@ -12,7 +12,7 @@
   --color-sand: #ede9d5;
   --color-sand-dark: #eee8d5;
 
-  --color-shade:#f3d85f;
+  --color-shade:#ded4b2;
   --color-sidebar: #eee8d5;
 
   --color-text:#444444;
@@ -23,7 +23,6 @@
 
   --color-project-description:#eee8d5;
 
-  
 
   --sidebar-width: 16rem; /* This corresponds to 64px;*/
 
@@ -110,7 +109,14 @@ p {
     @apply flex px-3 py-2 rounded-xl transition  items-center text-(--color-text)
           hover:bg-(--color-shade)  
   }
+
+  .about-title-h2 {
+    @apply text-3xl font-semibold mb-4 mt-10
+  }
+
+  .about-card{
+    @apply block p-5 rounded-2xl shadow-md bg-white dark:bg-gray-800 hover:shadow-lg transition-all border border-gray-200
+  }
+
 }
-
-
 

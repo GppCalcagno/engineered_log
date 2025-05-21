@@ -1,6 +1,28 @@
 [
   {
     "class": "Software Engineering",
+    "tag": ["Blog", "Portfolio", "JavaScript"],
+    "year": 2025,
+    "imgPath": "engineered_log.png",
+    "title": "This Website! ",
+    "description": "My personal website built with NextJS, JavaScript and MDX, showcasing my work, interests, and portfolio.",
+    "githubLink": "https://github.com/GppCalcagno/engineered_log",
+    "blogLink": "",
+    "extLink": "https://engineeredlog.vercel.app"
+  },
+  {
+    "class": "Software Engineering",
+    "tag": ["Web App", "Foosball", "Ranking"],
+    "year": 2025,
+    "imgPath": "Table_Tomic.png",
+    "title": "Table Tomic – Foosball Tracker",
+    "description": "A web app inspired by Playtomic to track foosball game records, monitor matches, and manage an adapted ranking system. Used for our working station at work :)",
+    "githubLink": "https://github.com/GppCalcagno/Table_Tomic",
+    "blogLink": "",
+    "extLink": ""
+  },
+  {
+    "class": "Software Engineering",
     "tag": ["LLM", "Web App", "Full Stack"],
     "year": 2024,
     "imgPath": "AIEnhancedWebBookstore.png",

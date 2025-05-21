@@ -1,10 +1,12 @@
 "use client";
-
-import { useState } from "react";
 import PageLayout from "@/app/components/pageLayout";
 import Hero from "@/app/components/Hero";
 import Image from "next/image";
 import projectsList from "@/content/projects/projects.json";
+import { useMemo, useState } from "react";
+import Link from "next/link";
+
+
 
 import { FaGithub, FaLink } from "react-icons/fa";
 import { LuTextCursorInput } from "react-icons/lu";
@@ -14,13 +16,15 @@ export default function ProjectsPage() {
   const [selectedClass, setSelectedClass] = useState("All");
 
   // Estrai le classi uniche
-  const classOptions = ["All", ...new Set(projectsList.map((p) => p.class))];
+    const classOptions = useMemo(() => {
+      return ["All", ...new Set(projectsList.map((p) => p.class))];
+    }, []);
 
-  // Applica il filtro
-  const filteredProjects =
-    selectedClass === "All"
-      ? projectsList
-      : projectsList.filter((p) => p.class === selectedClass);
+    const filteredProjects = useMemo(() => {
+      return selectedClass === "All"
+        ? projectsList
+        : projectsList.filter((p) => p.class === selectedClass);
+    }, [selectedClass]);
 
   return (
     <PageLayout>
@@ -40,8 +44,8 @@ export default function ProjectsPage() {
             className={`px-4 py-1.5 rounded-full border text-sm font-medium transition-all duration-200
               ${
                 selectedClass === cls
-                  ? "bg-[var(--color-project-description)] text-black dark:text-white scale-105 shadow-md"
-                  : "border-gray-400 dark:border-gray-600 text-gray-600 dark:text-gray-300 hover:scale-105 hover:border-white"
+                  ? "bg-[var(--color-project-description)] scale-105 shadow-md"
+                  : "border-gray-400 dark:border-gray-600  hover:scale-105"
               }`}
           >
             {cls}
@@ -60,7 +64,7 @@ export default function ProjectsPage() {
             <div className="w-full md:w-1/2 relative aspect-video">
               <Image
                 src={`/projects/${project.imgPath}`}
-                alt="Project Image"
+                alt={project.title}
                 fill
                 className="rounded-xl object-cover"
               />
@@ -82,6 +86,7 @@ export default function ProjectsPage() {
               </div>
 
               <div className="text-sm flex flex-col gap-1">
+                
                 {/* Tags */}
                 <div className="flex flex-wrap gap-2 justify-end">
                   {project.tag.map((tag, i) => (
@@ -113,7 +118,7 @@ export default function ProjectsPage() {
                   )}
                   {project.extLink && (
                     <a
-                      href={project.extLink}
+                      href={project.  extLink}
                       target="_blank"
                       className="flex items-center gap-1 hover:scale-130"
                     >

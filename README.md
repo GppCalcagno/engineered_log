@@ -23,14 +23,16 @@ The following features and sections are planned or currently being developed:
 - [ ] Refine Home page
 - [ ] Refine NavBar Icons
 - [ ] Refine Sidebar Notes\projects
-- [ ] Refractor Style Code \ Refine Color Schema
+- [ ] Learn more about Note server-side
+- [x] ~~Refractor Style Code \ Refine Color Schema~~
 - [ ] Fix Dark Mode  
 - [x] ~~About Me section~~
   - [ ] Books  
   - [ ] Chess  
   - [ ] productivity  
 - [ ] ~~Contact form~~  
-- [ ] Update Projects
+- [x] ~~Update Projects~~
+  - [x] ~~Update Projects Images~~
 
 ---
 
