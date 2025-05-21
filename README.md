@@ -20,18 +20,17 @@ You can access a previous version here: [Engineered Log](https://engineeredlog.v
 
 The following features and sections are planned or currently being developed:
 
-- [ ] Refine Home page  
-- [ ] Refine Color Schema
+- [ ] Refine Home page
 - [ ] Refine NavBar Icons
 - [ ] Refine Sidebar Notes\projects
-- [ ] Refractor Style Code
+- [ ] Refractor Style Code \ Refine Color Schema
 - [ ] Fix Dark Mode  
-- [ ] About Me section  
+- [x] ~~About Me section~~
   - [ ] Books  
   - [ ] Chess  
-  - [ ] Data  
-- [ ] Contact form  
-- [ ] Add more details as the project evolves  
+  - [ ] productivity  
+- [ ] ~~Contact form~~  
+- [ ] Update Projects
 
 ---
 
