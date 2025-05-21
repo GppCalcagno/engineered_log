@@ -30,7 +30,7 @@ export default function About() {
           <li>
             <p>
               In addition to my main job, I enjoy exploring new ideas through <b>personal side projects</b>.  
-              These projects allow me to experiment with technologies I’m passionate about and continue learning outside of work.  
+              These projects allow me to experiment with technologies I&rsquo;m passionate about and continue learning outside of work.  
               Currently, I&rsquo;m dedicating my free time to building this website.
             </p>
           </li>
@@ -101,7 +101,7 @@ export default function About() {
           <p className="mb-4">
             I have other interests in life, like reading, playing chess, and so on...  
             One of my meta-hobbies is maintaining tracking systems for the things I do:    
-            <i>"if you don&rsquo;t track it, it never happened." </i>  
+            <i>“if you don&rsquo;t track it, it never happened.“ </i>  
             Here are a few activities I enjoy and manage to track:
           </p>
 
