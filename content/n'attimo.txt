@@ -1,0 +1,29 @@
+{`class Me {
+  type: 'engineer',
+  role: 'dataScientist',
+  stack: ['Python', 'ML', 'SE'],
+  status: 'awake',
+}
+
+function dailyRoutine() {
+  while (Me.status = 'awake') {
+  try {
+    if (curiosity && caffeineLevel > 0.8) {
+      Explore();
+      TestIdeas();
+      PushToProd();
+      Reflect(); //sometimes
+      WriteDocs(); // maybe sometimes
+      }
+    } catch (err) {
+        print(\'A noi la qualità c\'à r...');
+        debug&Fix();
+        refactor();
+    }
+  }
+  Sleep(Me)
+  return 'È coffee break signori";  
+}
+
+dailyRoutine();
+`}

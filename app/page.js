@@ -44,7 +44,7 @@ export default async function Home() {
   return (
     <PageLayout>
       <Hero
-        title="Welcome 👋"
+        title="Hey, Welcome 👋"
         subtitle="I’m a Computer Science Engineer passionate about coding, dedicated to solving complex problems and staying updated in the ever‑evolving tech landscape."
         subtitle2="This is my little corner of the internet where I share what I learn, think, and sometimes do."
         image="illustration/home2.svg"
@@ -55,7 +55,7 @@ export default async function Home() {
         
           <div className="flex items-baseline mb-2">
             <h2 className="text-3xl font-bold">Latest Articles</h2>
-            <Link href="/notes" className="sm: pl-5 text-[var(--color-link)]">Show More</Link>
+            <Link href="/notes" className="sm: pl-5 text-[var(--color-link)] text-xs">Show More</Link>
           </div>
           <p className="mb-6">{" I don’t write often. These are the latest notes I felt were worth the effort - for me to share, and hopefully for you to read!"}</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -88,12 +88,12 @@ export default async function Home() {
       <section className="py-6">
         <div className="flex items-baseline mb-2">
           <h2 className="text-3xl font-bold">Latest Projects</h2>
-          <Link href="/projects" className="sm: pl-5 text-[var(--color-link)]">Show More</Link>
+          <Link href="/projects" className="sm: pl-5 text-[var(--color-link)] text-xs">Show More</Link>
         </div>
         <p className="mb-6">{"Some of the projects I've been working on recently."}</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {latestProjects.map((project, index) => (
-            <div key={index} className="sm:max-w-xs rounded-xl overflow-hidden shadow-md bg-[var(--color-cards-description)]  hover:scale-102 transition-all duration-100" Link={`/projects/${project.slug}`}> 
+            <div key={index} className="sm:max-w-xs rounded-xl overflow-hidden shadow-md bg-[var(--color-cards-description)]  hover:scale-102 transition-all duration-100"> 
               <Image
                 className="w-full h-32 object-cover"
                 src={`/projects/${project.imgPath}`}

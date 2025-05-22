@@ -6,17 +6,39 @@ import Sidebar from './Sidebar';
 import Footer from './Footer';
 
 export default function PageLayout({ children }) {
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState(null); // Start with null to prevent flickering
+  const [isThemeLoaded, setIsThemeLoaded] = useState(false); // To prevent rendering before theme is loaded
 
+  // Function to toggle the theme
   const toggleTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light';
     setTheme(newTheme);
+    localStorage.setItem('theme', newTheme); // Store the theme in localStorage
   };
 
   useEffect(() => {
-    document.documentElement.classList.add(theme);
-    return () => document.documentElement.classList.remove(theme);
+    // Check localStorage for saved theme and set it immediately
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+      setTheme(savedTheme);
+    } else {
+      setTheme('light'); // Default to light mode if no saved theme
+    }
+  }, []);
+
+  useEffect(() => {
+    if (theme) {
+      // Once the theme is determined, apply it to the document
+      document.documentElement.classList.add(theme);
+      setIsThemeLoaded(true);
+      return () => document.documentElement.classList.remove(theme);
+    }
   }, [theme]);
+
+  if (!isThemeLoaded) {
+    // Prevent rendering until the theme is loaded
+    return null;
+  }
 
   return (
     <div className="flex h-screen w-screen">
@@ -27,11 +49,9 @@ export default function PageLayout({ children }) {
           {children}
         </div>
         <div className="sm:px-14 px-6">
-        <Footer />
+          <Footer />
         </div>
-
       </div>
-      
     </div>
   );
 }
