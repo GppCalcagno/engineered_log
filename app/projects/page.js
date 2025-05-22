@@ -44,7 +44,7 @@ export default function ProjectsPage() {
             className={`px-4 py-1.5 rounded-full border text-sm font-medium transition-all duration-200
               ${
                 selectedClass === cls
-                  ? "bg-[var(--color-project-description)] scale-105 shadow-md"
+                  ? "bg-[var(--color-cards-description)] scale-105 shadow-md"
                   : "border-gray-400 dark:border-gray-600  hover:scale-105"
               }`}
           >
@@ -81,7 +81,7 @@ export default function ProjectsPage() {
                 </h3>
               </div>
 
-              <div className="bg-[var(--color-project-description)] rounded-lg p-4 md:-translate-x-15">
+              <div className="bg-[var(--color-cards-description)] rounded-lg p-4 md:-translate-x-15">
                 {project.description}
               </div>
 

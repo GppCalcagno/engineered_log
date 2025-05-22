@@ -12,9 +12,9 @@ import Logo from './Logo'
 
 
 const menuItems = [
-  { label: 'Projects', href: '/projects', icon: '/icons/tools.png' },
-  { label: 'Notes', href: '/notes', icon: '/icons/idea.png' },
-  { label: 'About', href: '/aboutme', icon: '/icons/idcard.png' },
+  { label: 'Projects', href: '/projects', icon: '/icons/project.png' },
+  { label: 'Notes', href: '/notes', icon: '/icons/notes.png' },
+  { label: 'About', href: '/aboutme', icon: '/icons/aboutme.png' },
 ];
 
 export default function Navbar({ theme, toggleTheme }) {
@@ -37,7 +37,7 @@ export default function Navbar({ theme, toggleTheme }) {
                 {menuItems.map((item) => (
                   <li key={item.href}>
                     <Link href={item.href} className="nav-btn">
-                      <Image src={item.icon} alt={item.label} width={18} height={18} />
+                      <Image src={item.icon} alt={item.label} width={23} height={23} />
                       <span className='ml-3'>{item.label}</span>
                     </Link>
                   </li>
@@ -46,7 +46,7 @@ export default function Navbar({ theme, toggleTheme }) {
           
           
           <button onClick={toggleTheme} className="nav-btn transition-transform duration-300 font-bold">
-            {theme === 'light' ? <BsMoon size={20} className="text-gray-800"/> : <BsSun size={20} className="text-yellow-500"/>}
+            {theme === 'light' ? <BsMoon size={20} className="text-blue-950"/> : <BsSun size={20} className="text-yellow-500"/>}
           </button>
         
           <button onClick={() => setIsOpen(!isOpen)} className="sm:hidden nav-btn">
@@ -57,16 +57,17 @@ export default function Navbar({ theme, toggleTheme }) {
 
       {/* Mobile Menu Content */}
       {isOpen && (
-        <div className="fixed top-12 w-full h-full bg-(--color-sand-dark) dark:bg-(--background) flex flex-col items-center justify-center space-y-6 sm:hidden">
+        <div className="fixed top-12 w-full h-full bg-(--color-sand-dark) dark:bg-(--background) flex flex-col items-center justify-center space-y-10 sm:hidden">
           {menuItems.map((item) => (
             <Link
               key={item.href}
               href={item.href}
               onClick={() => setIsOpen(false)}
               className="nav-btn text-xl"
-            >
-              <Image src={item.icon} alt={`${item.label} icon`} width={22} height={22} />
-              <span className='mx-1.5'>{item.label}</span>
+            > 
+              
+              <Image src={item.icon} alt={`${item.label} icon`} width={30} height={30} />
+              <span className='mx-5'>{item.label}</span>
               </Link>
           ))}
         </div>

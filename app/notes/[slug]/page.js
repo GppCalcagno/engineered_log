@@ -5,8 +5,24 @@ import { MDXRemote } from "next-mdx-remote/rsc";
 import Image from "next/image";
 import PageLayout from "@/app/components/pageLayout";
 
+// 1. Static generation: define all dynamic slugs
+//  generateStaticParams is a Next.js function used to define dynamic routes that should be generated statically at build time
+// It returns an array of objects, each containing a slug property that corresponds to a folder name in the content/blogs directory.
+// The NotesPage component is now rendered statically for each slug. At build time, Next.js uses generateStaticParams to generate a 
+// page for each available slug, and it uses the MDX content from the corresponding .mdx file for that blog post
+
+export async function generateStaticParams() {
+  const notesDirectory = path.join(process.cwd(), "content", "blogs");
+  const folders = fs.readdirSync(notesDirectory);
+
+  return folders.map((folder) => ({
+    slug: folder,
+  }));
+}
+
+// 2. Page component for each static [slug]
 export default async function NotesPage({ params }) {
-  const { slug } = await params;
+  const { slug } = await params;  
 
   const filePath = path.join(
     process.cwd(),
@@ -21,7 +37,7 @@ export default async function NotesPage({ params }) {
 
   return (
     <PageLayout>
-      {/* Header */}
+      {/* Header section */}
       <div className="relative w-full">
         <div className="relative aspect-video md:aspect-[4/1] md:mx-8">
           <Image
@@ -54,11 +70,11 @@ export default async function NotesPage({ params }) {
         </div>
       </div>
 
-      {/* Body */}
+      {/* MDX content */}
       <div className="items-center justify-center flex flex-col">
-      <article className="prose prose-stone dark:prose-invert max-w-none mb-5 md:max-w-3/4 mt-10">
-        <MDXRemote source={content} components={{ Image }} />
-      </article>
+        <article className="prose prose-stone dark:prose-invert mb-5 mt-10 w-full px-4 md:max-w-3/4">
+          <MDXRemote source={content} components={{ Image }} />
+        </article>
       </div>
     </PageLayout>
   );

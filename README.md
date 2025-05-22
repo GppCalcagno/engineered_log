@@ -20,10 +20,10 @@ You can access a previous version here: [Engineered Log](https://engineeredlog.v
 
 The following features and sections are planned or currently being developed:
 
-- [ ] Refine Home page
-- [ ] Refine NavBar Icons
+- [x] ~~Refine Home page~~
+- [x] ~~Refine NavBar Icons~~
 - [ ] Refine Sidebar Notes\projects
-- [ ] Learn more about Note server-side
+- [x] ~~Learn more about Note server-side~~
 - [x] ~~Refractor Style Code \ Refine Color Schema~~
 - [ ] Fix Dark Mode  
 - [x] ~~About Me section~~
