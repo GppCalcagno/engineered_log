@@ -1,31 +1,31 @@
-# :floppy_disk: Engineered Log [WIP]
 
-:construction: **Work in Progress:**   This repository contains the code for my personal website, showcasing my work, interests, and portfolio.
 
+# :floppy_disk: Engineered Log
+
+Welcome to the source code of my personal website - [Engineered Log](https://engineeredlog.vercel.app/). This site is a hub for my ideas, projects, and interests, providing a window into my work and ongoing explorations in software engineering and beyond.
+
+<p align="center">
+  <img src="public/logo.png" alt="Engineered Log Logo" width="130"/>
+</p>
 
 It is built using:
-
-- **Next.js** (React framework)
+- **Next.js** (React framework) v15.3.2
+- **Tailwind CSS** v4.x
 - **JavaScript**
 - **MDX** for content
-- **Tailwind CSS**
 - **Vercel** for deployment
-
-
-You can access a previous version here: [Engineered Log](https://engineeredlog.vercel.app/)
 
 ---
 
-## :clipboard: TODO
+## :construction: RoadMap & TODO
 
-The following features and sections are planned or currently being developed:
-
+The core functionality of the website is now complete. Remaining features and sections are considered lower priority and will be added gradually as time allows:
 - [x] ~~Refine Home page~~
 - [x] ~~Refine NavBar Icons~~
 - [x] ~~Refine Sidebar Notes\projects~~
 - [x] ~~Learn more about Note server-side~~
 - [x] ~~Refractor Style Code \ Refine Color Schema~~
-- [o] ~~Fix Dark Mode~~ (solved, but intefficient) 
+- [x] ~~Fix Dark Mode~~ (solved, but intefficient) 
 - [x] ~~About Me section~~
   - [ ] Books  
   - [ ] Chess  
@@ -47,4 +47,21 @@ This project is inspired and informed by several fantastic resources. Here are s
 
 ---
 
-Feel free to explore, suggest improvements, or contribute ideas!
+## 🚀 Getting Started
+
+To run this project locally:
+
+```bash
+git clone https://github.com/GppCalcagno/engineered_log.git
+cd engineered_log
+npm install
+npm run dev
+```
+Visit `http://localhost:3000` in your browser.
+
+---
+
+## 🤝 Contributing
+
+Contributions, suggestions, and ideas are welcome! Please open an issue or pull request if you'd like to help improve the site.
+
