@@ -105,7 +105,7 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4">
 
             {/* Card 1: Bookshelf */}
-            <Link href="/WIP" className="about-card">
+            <Link href="/aboutme/bookshelf" className="about-card">
               <div className="flex items-center gap-3">
                 <FaBookOpen className="text-green-600 text-2xl" />
                 <h3 className="text-xl font-semibold text-green-600">Bookshelf</h3>

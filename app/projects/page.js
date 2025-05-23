@@ -2,7 +2,7 @@
 import PageLayout from "@/app/components/pageLayout";
 import Hero from "@/app/components/Hero";
 import Image from "next/image";
-import projectsList from "@/content/projects/projects.json";
+import projectsList from "@/content/somejson/projects.json";
 import { useMemo, useState } from "react";
 import Link from "next/link";
 

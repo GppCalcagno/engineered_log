@@ -31,7 +31,7 @@ async function getLatestArticles() {
 
 // 2. Fetch the latest projects from the JSON file
 async function getLatestProjects() {
-  const projectsPath = path.join(process.cwd(), 'content', 'projects', 'projects.json');
+  const projectsPath = path.join(process.cwd(), 'content', 'somejson', 'projects.json');
   const projects = JSON.parse(fs.readFileSync(projectsPath, 'utf8'));
   return projects.slice(0, 3); // Get only the top 3 latest projects
 }
