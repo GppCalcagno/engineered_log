@@ -17,7 +17,7 @@
     "Finish": "10/07/2021",
     "Days": 12,
     "Pages": "",
-    "Speed": 0,
+    "Speed": 1,
     "Vote": 4,
     "ISBN-13": 9788867006977
   },
@@ -39,7 +39,7 @@
     "Finish": "16/08/2021",
     "Days": 28,
     "Pages": "",
-    "Speed": 0,
+    "Speed": 1,
     "Vote": 5,
     "ISBN-13": 9780753557525
   },
@@ -51,7 +51,7 @@
     "Days": 4,
     "Pages": "",
     "Speed": 0,
-    "Vote": 0,
+    "Vote": 1,
     "ISBN-13": 9788867313990
   },
   {
@@ -62,7 +62,7 @@
     "Days": 31,
     "Pages": "",
     "Speed": 0,
-    "Vote": 0,
+    "Vote": 1,
     "ISBN-13": 9798739033994
   },
   {
@@ -84,7 +84,7 @@
     "Days": 10,
     "Pages": "",
     "Speed": 0,
-    "Vote": 0,
+    "Vote": 1,
     "ISBN-13": 9791220082242
   },
   {
@@ -154,7 +154,7 @@
     "ISBN-13": 9788833923123
   },
   {
-    "Name": "Immune. Viaggio nel misterioso sistema che ci tiene in vita",
+    "Name": "Immune. Viaggio nel  sistema che ci tiene in vita",
     "Author": "Philipp Dettmer",
     "Starting": "06/04/2022",
     "Finish": "29/04/2022",
@@ -172,7 +172,7 @@
     "Days": 1,
     "Pages": "",
     "Speed": 0,
-    "Vote": 0,
+    "Vote": 1,
     "ISBN-13": 9781544660479
   },
   {
@@ -447,7 +447,7 @@
     "Days": 126,
     "Pages": 800,
     "Speed": 6,
-    "Vote": "",
+    "Vote": 5,
     "ISBN-13": "978-1492082798"
   },
   {
@@ -482,27 +482,5 @@
     "Speed": "",
     "Vote": "",
     "ISBN-13": "978-8842820239"
-  },
-  {
-    "Name": "How to Know a Person",
-    "Author": "",
-    "Starting": "",
-    "Finish": "",
-    "Days": "",
-    "Pages": "",
-    "Speed": "",
-    "Vote": "",
-    "ISBN-13": ""
-  },
-  {
-    "Name": "How the World Really Works",
-    "Author": "",
-    "Starting": "",
-    "Finish": "",
-    "Days": "",
-    "Pages": "",
-    "Speed": "",
-    "Vote": "",
-    "ISBN-13": ""
   }
 ]
