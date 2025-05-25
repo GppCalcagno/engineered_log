@@ -87,8 +87,8 @@ export default function About() {
             <h3 className="text-xl font-semibold mb-2 text-blue-600">🏃 Running</h3>
             <ul className="list-inside list-disc space-y-1 text-sm pl-5">
               <li><b>5k</b>: 26:01</li>
-              <li><b>10k</b>: 55:41</li>
-              <li><b>Half Marathon</b>: 2h 08min</li>
+              <li><b>10k</b>: 54:00</li>
+              <li><b>Half Marathon</b>: 02:08:00</li>
             </ul>
           </div>
         </div>

@@ -27,7 +27,7 @@ The core functionality of the website is now complete. Remaining features and se
 - [x] ~~Refractor Style Code \ Refine Color Schema~~
 - [x] ~~Fix Dark Mode~~ (solved, but intefficient) 
 - [x] ~~About Me section~~
-  - [ ] Books  
+  - ~~[x] Books~~  
   - [ ] Chess  
   - [ ] productivity  
 - [ ] ~~Contact form~~  
