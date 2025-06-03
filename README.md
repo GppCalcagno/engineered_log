@@ -21,10 +21,17 @@ It is built using:
 
 The core functionality of the website is now complete. Remaining features and sections are considered lower priority and will be added gradually as time allows:
 - [x] ~~Refine Home page~~
+  - [ ] improve Notes hompage list
+- [ ] Implement SEO
 - [x] ~~Refine NavBar Icons~~
 - [x] ~~Refine Sidebar Notes\projects~~
 - [x] ~~Learn more about Note server-side~~
 - [x] ~~Refractor Style Code \ Refine Color Schema~~
+  - [ ] Change hihglight colors
+- [ ] Fix Note Page
+  - [ ] Add Medium
+  - [ ] File System 
+  - [ ] Style of the page
 - [x] ~~Fix Dark Mode~~ (solved, but intefficient) 
 - [x] ~~About Me section~~
   - ~~[x] Books~~  
