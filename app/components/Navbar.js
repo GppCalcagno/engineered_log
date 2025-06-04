@@ -25,7 +25,7 @@ export default function Navbar({ theme, toggleTheme }) {
 
       <div className='w-full h-full flex justify-between sm:mx-10  mx-2 border-b border-[var(--color-shade)]'>
         
-        <div className='flex sm:hidden'>
+        <div className='flex md:hidden'>
           <Logo/>
         </div>
 
@@ -33,7 +33,7 @@ export default function Navbar({ theme, toggleTheme }) {
 
         <div className='flex justify-end'>
 
-          <ul className="hidden ml-auto sm:flex space-x-4 items-center">
+          <ul className="hidden ml-auto md:flex space-x-4 items-center">
                 {menuItems.map((item) => (
                   <li key={item.href}>
                     <Link href={item.href} className="nav-btn">
@@ -49,7 +49,7 @@ export default function Navbar({ theme, toggleTheme }) {
             {theme === 'light' ? <BsMoon size={20} className="text-blue-950"/> : <BsSun size={20} className="text-yellow-500"/>}
           </button>
         
-          <button onClick={() => setIsOpen(!isOpen)} className="sm:hidden nav-btn">
+          <button onClick={() => setIsOpen(!isOpen)} className="md:hidden nav-btn">
                   <AiOutlineMenu color={theme === 'light' ? 'black':'white' } size={20} />
           </button>
         </div>

@@ -39,9 +39,9 @@ export default async function NotesPage({ params }) {
     <PageLayout>
       {/* Header section */}
       <div className="relative w-full">
-        <div className="relative aspect-video md:aspect-[4/1] md:mx-8">
+        <div className="relative aspect-video md:aspect-[3/1] md:mx-8">
           <Image
-            src={`/blog/${data.image}`}
+            src={`/blog/${data.slug}/${data.image}`}
             alt={data.title}
             fill
             className="object-cover rounded-md"
@@ -50,11 +50,9 @@ export default async function NotesPage({ params }) {
         </div>
 
         <div className="bg-[var(--color-sidebar)] md:w-3/4 -mt-25 md:-mt-30 relative z-10 md:px-6 md:py-8 py-6 px-3 shadow-sm rounded-md">
-          {data.tags?.length > 0 && (
             <p className="uppercase text-sm tracking-widest font-semibold mb-2">
-              {data.tags[0]}
+              {data.category}
             </p>
-          )}
           <h1 className="text-3xl md:text-4xl font-bold leading-tight">
             {data.title}
           </h1>
@@ -72,7 +70,7 @@ export default async function NotesPage({ params }) {
 
       {/* MDX content */}
       <div className="items-center justify-center flex flex-col">
-        <article className="prose prose-stone dark:prose-invert mb-5 mt-10 w-full px-4 md:max-w-3/4">
+        <article className="prose prose-stone dark:prose-invert mb-10 mt-10 w-full px-4 md:max-w-3/4">
           <MDXRemote source={content} components={{ Image }} />
         </article>
       </div>

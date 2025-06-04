@@ -15,10 +15,11 @@ export default function getPostMetadata(dir) {
       title: data.title || folderName,
       description: data.description || '',
       image: data.image || null,
+      icon: data.icon,
       publishedAt: data.publishedAt || null,
       updatedAt: data.updatedAt || null,
-      author: data.author || '',
       isPublished: data.isPublished !== false,  // default true
+      category:data.category,
       tags: data.tags || [],
       slug: data.slug || folderName,
     };

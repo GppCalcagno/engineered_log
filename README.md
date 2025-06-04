@@ -21,18 +21,18 @@ It is built using:
 
 The core functionality of the website is now complete. Remaining features and sections are considered lower priority and will be added gradually as time allows:
 - [x] ~~Refine Home page~~
-  - [ ] improve Notes hompage list
+  - [x] ~~improve Notes hompage list~~(not so complete)
 - [ ] Implement SEO
 - [x] ~~Refine NavBar Icons~~
 - [x] ~~Refine Sidebar Notes\projects~~
 - [x] ~~Learn more about Note server-side~~
 - [x] ~~Refractor Style Code \ Refine Color Schema~~
-  - [ ] Change hihglight colors
-- [ ] Fix Note Page
+  - [x] ~~Change hihglight colors~~
+- [x] ~~Fix Desgin Note Page~~ (not so complete)
   - [ ] Add Medium
-  - [ ] File System 
-  - [ ] Style of the page
-- [x] ~~Fix Dark Mode~~ (solved, but intefficient) 
+  - [x] ~~File System~~
+  - [x] ~~Style of the page~~ (not so complete)
+ - [x] ~~Fix Dark Mode~~ (solved, but intefficient) 
 - [x] ~~About Me section~~
   - ~~[x] Books~~  
   - [ ] Chess  
