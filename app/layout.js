@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Engineered Log",
-  description: "My Personal Digital Blog, Notes, and Projects. My digital garden.",
+  description: "My Personal Digital Space, Notes, and Projects. My digital garden.",
 };
 
 export default function RootLayout({ children }) {

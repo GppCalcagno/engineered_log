@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image"; // Assicurati di importare l'Image component di Next.js
 
 export default function Notes() {
-  const notes = getPostMetadata("content/blogs");
+  const notes = getPostMetadata("content/blog");
 
   // Raggruppa per anno
   const groupedByYear = notes.reduce((acc, post) => {

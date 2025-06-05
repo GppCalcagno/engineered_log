@@ -30,6 +30,7 @@ The core functionality of the website is now complete. Remaining features and se
   - [x] ~~Change hihglight colors~~
 - [x] ~~Fix Desgin Note Page~~ (not so complete)
   - [ ] Add Medium
+  - [ ] Create TOC
   - [x] ~~File System~~
   - [x] ~~Style of the page~~ (not so complete)
  - [x] ~~Fix Dark Mode~~ (solved, but intefficient) 

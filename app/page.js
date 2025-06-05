@@ -9,7 +9,7 @@
 
   // 1. Fetch the latest articles metadata from the content folder
   async function getLatestArticles() {
-    const postsDirectory = path.join(process.cwd(), "content", "blogs");
+    const postsDirectory = path.join(process.cwd(), "content", "blog");
     const files = fs.readdirSync(postsDirectory);
 
     const articles = files
@@ -79,7 +79,7 @@
                   {/* Textual content */}
                   <div>
                       <h3 className="font-semibold text-lg text-[var(--color-text)]">{article.title}</h3>
-                      <p className="text-sm text-[var(--color-text)] mt-1 line-clamp-3">{article.description}</p>
+                      <p className="text-sm text-[var(--color-text)] mt-1 line-clamp-2">{article.description}</p>
                       <p className="text-xs text-[var(--color-link)] mt-2">
                         
                       </p>

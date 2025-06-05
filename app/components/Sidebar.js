@@ -9,7 +9,7 @@ export default function Sidebar() {
       <div className="flex flex-col h-full w-full items-center">
 
         {/* Logo */}
-        <div className='fixed h-12 justify-center items-center pt-2 px-6 border-b border-[var(--color-shade)] bg-[var(--color-sidebar)]'>
+        <div className='fixed h-12 flex-1 justify-center items-center pt-2 px-9 border-b border-[var(--color-shade)] bg-[var(--color-sidebar)]'>
           <Logo />
         </div>
 
