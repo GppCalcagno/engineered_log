@@ -21,11 +21,11 @@ export default function Navbar({ theme, toggleTheme }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 w-full h-12 z-50 flex items-center md:pr-[var(--sidebar-width)] bg-(--background)">
+    <nav className="fixed top-0 w-full h-12 z-50 flex items-center lg:pr-[var(--sidebar-width)] bg-(--background)">
 
       <div className='w-full h-full flex justify-between sm:mx-10  mx-2 border-b border-[var(--color-shade)]'>
         
-        <div className='flex md:hidden'>
+        <div className='flex lg:hidden'>
           <Logo/>
         </div>
 
@@ -57,7 +57,7 @@ export default function Navbar({ theme, toggleTheme }) {
 
       {/* Mobile Menu Content */}
       {isOpen && (
-        <div className="fixed top-12 w-full h-full bg-(--color-sand-dark) dark:bg-(--background) flex flex-col items-center justify-center space-y-10 sm:hidden">
+        <div className="fixed top-12 w-full h-full bg-(--color-sand-dark) dark:bg-(--background) flex flex-col items-center justify-center space-y-10 lg:hidden">
           {menuItems.map((item) => (
             <Link
               key={item.href}

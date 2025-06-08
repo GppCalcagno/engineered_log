@@ -12,7 +12,7 @@ import PageLayout from "@/app/components/pageLayout";
 // page for each available slug, and it uses the MDX content from the corresponding .mdx file for that blog post
 
 export async function generateStaticParams() {
-  const notesDirectory = path.join(process.cwd(), "content", "blogs");
+  const notesDirectory = path.join(process.cwd(), "content", "blog");
   const folders = fs.readdirSync(notesDirectory);
 
   return folders.map((folder) => ({
@@ -27,7 +27,7 @@ export default async function NotesPage({ params }) {
   const filePath = path.join(
     process.cwd(),
     "content",
-    "blogs",
+    "blog",
     slug,
     "index.mdx"
   );
