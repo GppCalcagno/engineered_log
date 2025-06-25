@@ -17,8 +17,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Engineered Log",
-  description: "My Personal Digital Space, Notes, and Projects. My digital garden.",
+  title: {
+  default: "Engineered Log",  
+  template: "%s | Engineered Log",
+  },
+
+  description: "MWelcome to my personal digital space where I share notes, showcase projects, and document my life journey, learning, and creativity. Explore my digital garden to discover insights, experiments, and ideas.",
+
+  keywords: [
+    "personal blog",
+    "digital garden",
+    "notes",
+    "projects",
+    "software engineering",
+    "machine learning",
+    "mind log",
+    "tech log",
+  ],
 };
 
 export default function RootLayout({ children }) {
@@ -26,6 +41,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <Script async src="https://www.googletagmanager.com/gtag/js?id=G-EGCKKGSY45"></Script>
+        
         <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];

@@ -3,6 +3,12 @@ import Hero from "../components/Hero";
 import Link from "next/link";
 import { FaChessKnight, FaBookOpen, FaCheckCircle } from "react-icons/fa";
 
+export const metadata = {
+  title: "About Me",
+  description:
+    "Welcome to my personal space where I share my journey, interests, and the things that shape who I am. From my professional work to my hobbies and everything in between, this is a glimpse into my life.",
+};
+
 export default function About() {
   return (
     <PageLayout>

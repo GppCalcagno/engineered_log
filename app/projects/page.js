@@ -11,6 +11,7 @@ import Link from "next/link";
 import { FaGithub, FaLink } from "react-icons/fa";
 import { LuTextCursorInput } from "react-icons/lu";
 
+
 export default function ProjectsPage() {
   // State per il filtro
   const [selectedClass, setSelectedClass] = useState("All");

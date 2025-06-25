@@ -1,6 +1,11 @@
 import PageLayout from "../components/pageLayout";
 import Image from "next/image";
 
+export const metadata = {
+  title: "Work in Progress",
+  description: "This part of the website is still under construction.",
+};
+
 export default function Home() {
   return (
     <PageLayout>

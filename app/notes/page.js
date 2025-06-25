@@ -4,6 +4,12 @@ import getPostMetadata from "../utils/getPostMetadata";
 import Link from "next/link";
 import Image from "next/image"; // Assicurati di importare l'Image component di Next.js
 
+export const metadata = {
+  title: "Notes",
+  description:
+    "Welcome to my notes section, where I share insights, ideas, and reflections on various topics. From coding and personal finance to productivity tips and brain dumps, this is my digital garden of thoughts.",
+};
+
 export default function Notes() {
   const notes = getPostMetadata("content/blog");
 
