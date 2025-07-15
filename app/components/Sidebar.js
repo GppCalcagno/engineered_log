@@ -20,7 +20,7 @@ export default function Sidebar() {
             <h2 className="text-base font-semibold mb-2">About Me</h2>
             <div className="sidebar-content">
               <p>
-                <Link className="text-[var(--color-link)] hover:underline" href="/aboutme"> I am </Link> a Machine Learning and 
+                <Link className="text-[var(--color-link)] hover:underline" href="/aboutme"> I am</Link> a Machine Learning and 
                 Software engineer. This is my digital garden. 🌱
               </p>
             </div>

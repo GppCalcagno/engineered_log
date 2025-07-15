@@ -17,7 +17,7 @@
     "Days": 12,
     "Pages": "",
     "Vote": "A",
-    "ISBN13": 9788867006977
+    "ISBN13": 9781400069286
   },
   {
     "Name": "Piccole abitudini per grandi cambiamenti",
@@ -387,7 +387,7 @@
     "Days": 28,
     "Pages": 217,
     "Vote": "A",
-    "ISBN13": "978-0008305703"
+    "ISBN13": 9780008305703
   },
   {
     "Name": "Can't Hurt Me: Master Your Mind and Defy the Odds",
@@ -397,7 +397,7 @@
     "Days": 18,
     "Pages": 220,
     "Vote": "F",
-    "ISBN13": "978-1544512280"
+    "ISBN13": 9781544512280
   },
   {
     "Name": "Software Engineering at Google",
@@ -407,7 +407,7 @@
     "Days": 126,
     "Pages": 800,
     "Vote": "A",
-    "ISBN13": "978-1492082798"
+    "ISBN13": 9781492082798
   },
   {
     "Name": "The Anxious Generation",
@@ -417,7 +417,7 @@
     "Days": 68,
     "Pages": 330,
     "Vote": "C",
-    "ISBN13": "978-0593655030"
+    "ISBN13": 9780593655030
   },
   {
     "Name": "Slow Productivity",
@@ -427,7 +427,7 @@
     "Days": 28,
     "Pages": 220,
     "Vote": "F",
-    "ISBN13": "978-0593544853"
+    "ISBN13": 9780593544853
   },
   {
     "Name": "Giocati dal caso",
@@ -437,6 +437,16 @@
     "Days": 20,
     "Pages": 230,
     "Vote": "A",
-    "ISBN13": "978-8842820239"
+    "ISBN13": 9788842820239
+  },
+  {
+    "Name": "How to Take Smart Note",
+    "Author": "Sönke Ahrens",
+    "Starting": "13/06/2025",
+    "Finish": "15/07/2025",
+    "Days": 32,
+    "Pages": 160,
+    "Vote": "C",
+    "ISBN13": 9781542866507
   }
 ]

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import books from "@/content/somejson/2505-bookshelfDB.json";
+import books from "@/content/somejson/bookshelf.json";
 import PageLayout from "@/app/components/pageLayout";
 import Hero from "@/app/components/Hero";
 
@@ -45,7 +45,7 @@ export default function BookshelfPage() {
 
   const categories = [
     { id: "all", label: "All" },
-    { id: "A", label: "Selection Literary" },
+    { id: "A", label: "🍔 My Selection" },
     { id: "C", label: "Solid but Forgettable" },
   ];
 

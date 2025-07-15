@@ -125,7 +125,7 @@ p {
 /* Custom components */
 @layer components {
   .nav-btn {
-    @apply flex px-3 py-2 rounded-xl transition items-center text-(--color-text) hover:bg-(--color-shade);
+    @apply flex px-1.5 py-1.5 rounded-xl transition items-center text-(--color-text) hover:bg-(--color-shade);
   }
 
   .about-title-h2 {

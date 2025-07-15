@@ -21,9 +21,7 @@ export const metadata = {
   default: "Engineered Log",  
   template: "%s | Engineered Log",
   },
-
-  description: "MWelcome to my personal digital space where I share notes, showcase projects, and document my life journey, learning, and creativity. Explore my digital garden to discover insights, experiments, and ideas.",
-
+  description: "Welcome to my personal digital space where I share notes, showcase projects, and document my life journey, learning, and creativity. Explore my digital garden to discover insights, experiments, and ideas.",
   keywords: [
     "personal blog",
     "digital garden",

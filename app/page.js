@@ -44,8 +44,8 @@
     return (
       <PageLayout>
         <Hero
-          title="Hey, Welcome 👋"
-          subtitle="I’m a Computer Science Engineer passionate about coding, dedicated to solving complex problems and staying updated in the ever‑evolving tech landscape."
+          title="Welcome 👋"
+          subtitle="I’m a Computer Science Engineer passionate about coding. I like computers, problems, and using the former to solve the latter."
           subtitle2="This is my little corner of the internet where I share what I learn, think, and sometimes do."
           image="illustration/home2.svg"
         />
@@ -77,12 +77,13 @@
                   </div>
 
                   {/* Textual content */}
-                  <div>
-                      <h3 className="font-semibold text-lg text-[var(--color-text)]">{article.title}</h3>
-                      <p className="text-sm text-[var(--color-text)] mt-1 line-clamp-2">{article.description}</p>
-                      <p className="text-xs text-[var(--color-link)] mt-2">
-                        
-                      </p>
+                  <div className="flex flex-col justify-between h-full">
+                    <div>
+                        <h3 className="font-semibold text-lg text-[var(--color-text)]">{article.title}</h3>
+                        <p className="text-sm text-[var(--color-text)] mt-1 line-clamp-2">{article.description}</p>
+                        <p className="text-xs text-[var(--color-link)] mt-2"></p> 
+                      </div>
+                      
                       <p className="text-xs text-[var(--color-link)] mt-2">
                         {article.category} - {new Date(article.publishedAt).toLocaleDateString()}
                       </p>

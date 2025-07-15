@@ -18,7 +18,7 @@ export default function About() {
         subtitle2=" I'm a Computer Science Engineer focused on extracting value from data. I'm prone to forgetting things, so I write things down. This blog functions as my public diary, a personal archive of everything I explore in my life."
         image="illustration/aboutme.svg"
       />
-    <p className="text-sm text-gray-500 mx-3">Last update on 06/25</p>
+    <p className="text-sm text-gray-500 mx-3">Last update on 07/25</p>
       <div className="flex flex-col px-6 md:px-15">
         
 
@@ -83,8 +83,8 @@ export default function About() {
             <h3 className="text-xl font-semibold mb-2 text-red-600">🏋️ Lifting</h3>
             <ul className="list-inside list-disc space-y-1 text-sm pl-5">
               <li><b> Dumbbells Bench Press</b>: 12RM 18kg </li>
-              <li><b>Pull-up</b>: 8RM </li>
-              <li><b>Squat</b>: 10RM 55kg</li>
+              <li><b>Pull-up</b>: 10RM </li>
+              <li><b>Squat</b>: 10RM 70kg</li>
             </ul>
           </div>
 

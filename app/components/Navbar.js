@@ -45,8 +45,8 @@ export default function Navbar({ theme, toggleTheme }) {
           </ul>
           
           
-          <button onClick={toggleTheme} className="nav-btn transition-transform duration-300 font-bold">
-            {theme === 'light' ? <BsMoon size={20} className="text-blue-950"/> : <BsSun size={20} className="text-yellow-500"/>}
+          <button onClick={toggleTheme} className="font-bold mx-2 py-0 nav-btn ">
+            {theme === 'light' ? <BsMoon size={20} className="text-blue-700"/> : <BsSun size={20} className="text-yellow-500"/>}
           </button>
         
           <button onClick={() => setIsOpen(!isOpen)} className="md:hidden nav-btn">
